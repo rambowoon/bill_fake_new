@@ -1,0 +1,31 @@
+﻿#game-account-template-1 { padding-top: 40px; font-family: Roboto; }
+#view-container { width: 591px; height: 1263px; position: relative; float: right; margin-right: 40px; }
+#view-container img { width: 591px; height: 1263px; }
+#view-container #url { position: absolute; top: 90px; left: 175px; }
+#view-container #url #url-content { color: rgb(31 19 59 / 0.82); font-size: 20px; font-weight: bold; }
+#view-container #pin { position: absolute; right: 22px; top: 23px; }
+#view-container #pin img { width: 38px; height: 17px; }
+#view-container #signal-1 { position: absolute; right: 66px; top: 23px; }
+#view-container #signal-1 img { width: 27px; height: 13px; }
+#view-container #signal-wifi { position: absolute; right: 100px; top: 23px; }
+#view-container #signal-wifi img { width: 26.5px; height: 16px; }
+#view-container #time-view { position: absolute; left: 42px; top: 19px; }
+#view-container #time-view #time-view-content { font-weight: bold; font-size: 17pt; color: black; }
+#view-container #from-date-view { position: absolute; left: 77px; top: 460px; }
+#view-container #from-date-view #from-date-view-content { color: #535353; font-weight: 400; font-size: 17pt; }
+#view-container #end-date-view { position: absolute; left: 329px; top: 460px; }
+#view-container #end-date-view #end-date-view-content { color: #535353; font-weight: 400; font-size: 17pt; }
+#view-container #date-range-view { position: absolute; left: 70px; top: 640px; }
+#view-container #date-range-view #date-range-view-content { color: #535353; font-weight: 400; font-size: 17pt; letter-spacing: 0.1px; }
+#view-container #total-deposit-view { position: absolute; left: 140px; top: 706px; }
+#view-container #total-deposit-view #total-deposit-view-content { color: black; font-weight: 400; font-size: 25pt; }
+#view-container #total-withdrawal-view { position: absolute; left: 387px; top: 706px; }
+#view-container #total-withdrawal-view #total-withdrawal-view-content { color: black; font-weight: 400; font-size: 25pt; }
+#view-container #total-promotion-view { position: absolute; right: 121px; top: 833.5px; }
+#view-container #total-promotion-view #total-promotion-view-content { color: black; font-weight: 400; font-size: 34pt; }
+#view-container #return-history-view { position: absolute; right: 121px; top: 948.5px; }
+#view-container #return-history-view #return-history-view-content { color: black; font-weight: 400; font-size: 34pt; }
+#view-container #change-view { position: absolute; right: 107px; top: 956.5px; }
+#view-container #change-view #change-view-content { color: black; font-weight: 300; font-size: 32pt; }
+#view-container #friend-view { position: absolute; right: 107px; top: 1056.5px; }
+#view-container #friend-view #friend-view-content { color: black; font-weight: 300; font-size: 32pt; max-height: 35px; overflow: hidden }

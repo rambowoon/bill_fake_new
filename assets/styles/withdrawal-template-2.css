@@ -1,0 +1,45 @@
+﻿#withdrawal-template-2 { margin-top: 40px; font-family: Arial; }
+#view-container { width: 600px; height: 1267px; position: relative; float: right; margin-right: 40px; }
+#view-container img { width: 600px; height: 1267px; }
+#view-container #url { position: absolute; top: 94px; left: 185px; }
+#view-container #url #url-content { font-family: Roboto; color: rgb(31 19 59 / 0.82); font-size: 20px; font-weight: bold; }
+#view-container #time-view { position: absolute; top: 20px; left: 42px; }
+#view-container #time-view #time-view-content { font-size: 17.5pt; color: black; font-weight: bolder; letter-spacing: 1px; }
+#view-container #pin { position: absolute; right: 23px; top: 25px; }
+#view-container #pin img { width: 38px; height: 19px; }
+#view-container #signal-1 { position: absolute; right: 68px; top: 25px; }
+#view-container #signal-1 img { width: 27px; height: 14px; }
+#view-container #signal-2 { position: absolute; right: 103px; top: 24px; }
+#view-container #signal-2 img { width: 27px; height: 17px; }
+#view-container #date-range-view { position: absolute; left: 129px; top: 358px; }
+#view-container #date-range-view #date-range-view-content { font-size: 19pt; color: #727171; font-weight: 300; letter-spacing: -0.4px; }
+#view-container #total-result-view { position: absolute; left: 129px; top: 394px; }
+#view-container #total-result-view #total-result-view-content { font-size: 17pt; color: #676767; font-weight: 300; letter-spacing: 0.5px; }
+#view-container #result-time-1-view { position: absolute; left: 80px; top: 486px; }
+#view-container #result-time-1-view #result-time-1-view-content { font-size: 15pt; color: #727070; font-weight: 300; letter-spacing: -0.5px; }
+#view-container #result-point-1-view { position: absolute; right: 87px; top: 527px; }
+#view-container #result-point-1-view #result-point-1-view-content { font-size: 34pt; color: black; font-weight: 400; }
+#view-container #result-status-1-view { position: absolute; right: 89px; top: 483px; }
+#view-container #result-status-1-view #result-status-1-view-content { font-size: 14pt; color: #484848; background-color: #e6e6e6; font-weight: 400; border: none; padding: 8px 8px 4px 8px; border-top-left-radius: 18px; border-top-right-radius: 18px; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; }
+#view-container #result-money-1-view { position: absolute; left: 81.2322px; top: 609px; }
+#view-container #result-money-1-view #result-money-1-view-content { font-size: 19pt; color: #727070; font-weight: 400; letter-spacing: 0.2px; }
+
+/*Result 2*/
+#view-container #result-time-2-view { position: absolute; left: 81px; top: 696px; }
+#view-container #result-time-2-view #result-time-2-view-content { font-size: 15pt; color: #727070; font-weight: 300; letter-spacing: -0.5px; }
+#view-container #result-point-2-view { position: absolute; right: 87px; top: 738px; }
+#view-container #result-point-2-view #result-point-2-view-content { font-size: 34pt; color: black; font-weight: 400; }
+#view-container #result-status-2-view { position: absolute; right: 89px; top: 694px; }
+#view-container #result-status-2-view #result-status-2-view-content { font-size: 14pt; color: #484848; background-color: #e6e6e6; font-weight: 400; border: none; padding: 8px 8px 4px 8px; border-top-left-radius: 18px; border-top-right-radius: 18px; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; }
+#view-container #result-money-2-view { position: absolute; left: 81.2322px; top: 811px; }
+#view-container #result-money-2-view #result-money-2-view-content { font-size: 19pt; color: #727070; font-weight: 400; letter-spacing: 0.2px; }
+
+/*Result 3*/
+#view-container #result-time-3-view { position: absolute; left: 80px; top: 906px; }
+#view-container #result-time-3-view #result-time-3-view-content { font-size: 15pt; color: #727070; font-weight: 300; letter-spacing: -0.5px; }
+#view-container #result-point-3-view { position: absolute; right: 87px; top: 946px; }
+#view-container #result-point-3-view #result-point-3-view-content { font-size: 34pt; color: black; font-weight: 400; }
+#view-container #result-status-3-view { position: absolute; right: 89px; top: 903px; }
+#view-container #result-status-3-view #result-status-3-view-content { font-size: 14pt; color: #484848; background-color: #e6e6e6; font-weight: 400; border: none; padding: 8px 8px 4px 8px; border-top-left-radius: 18px; border-top-right-radius: 18px; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; }
+#view-container #result-money-3-view { position: absolute; left: 80.2321px; top: 1021px; }
+#view-container #result-money-3-view #result-money-3-view-content { font-size: 19pt; color: #727070; font-weight: 400; letter-spacing: 0.2px; }

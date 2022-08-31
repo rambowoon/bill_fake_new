@@ -1,0 +1,33 @@
+﻿#game-account-template-1 { padding-top: 40px; font-family: Roboto; }
+#view-container { width: 591px; height: 1201px; position: relative; float: right; margin-right: 40px; }
+#view-container img { width: 591px; height: 1201px; }
+#view-container #url { position: absolute; top: 85px; left: 125px; }
+#view-container #url #url-content { color: rgb(31 19 59 / 0.82); font-size: 20px; font-weight: bold; }
+#view-container #time-view { position: absolute; left: 31px; top: 21px; }
+#view-container #time-view #time-view-content { font-weight: 400; font-size: 16pt; color: #58585a; }
+#view-container #pin { position: absolute; right: 33px; top: 22px; }
+#view-container #pin img { width: 12px; height: 17px; }
+#view-container #pin-percent-view { position: absolute; right: 46px; top: 21px; }
+#view-container #pin-percent-view #pin-percent-view-content { color: #424244; font-size: 16pt; }
+#view-container #signal-1 { position: absolute; right: 94px; top: 23px; }
+#view-container #signal-1 img { width: 20px; height: 16px; }
+#view-container #signal-2 { position: absolute; right: 116px; top: 23px; }
+#view-container #signal-2 img { width: 20px; height: 16px; }
+#view-container #signal-wifi { position: absolute; right: 138px; top: 22px; }
+#view-container #signal-wifi img { width: 22px; height: 19px; }
+#view-container #total-tab-view { position: absolute; right: 82px; top: 86px; }
+#view-container #total-tab-view #total-tab-view-content { color: #02000d; font-weight: bold; font-size: 14pt; }
+#view-container #from-date-view { position: absolute; left: 76px; top: 452px; }
+#view-container #from-date-view #from-date-view-content { color: #535353; font-weight: 400; font-size: 17pt; }
+#view-container #end-date-view { position: absolute; left: 329px; top: 452px; }
+#view-container #end-date-view #end-date-view-content { color: #535353; font-weight: 400; font-size: 17pt; }
+#view-container #date-range-view { position: absolute; left: 70px; top: 632px; }
+#view-container #date-range-view #date-range-view-content { color: #535353; font-weight: 400; font-size: 17pt; letter-spacing: 0.1px; }
+#view-container #total-deposit-view { position: absolute; left: 139px; top: 698px; }
+#view-container #total-deposit-view #total-deposit-view-content { color: black; font-weight: 400; font-size: 25pt; }
+#view-container #total-withdrawal-view { position: absolute; left: 387px; top: 698px; }
+#view-container #total-withdrawal-view #total-withdrawal-view-content { color: black; font-weight: 400; font-size: 25pt; }
+#view-container #total-promotion-view { position: absolute; right: 121px; top: 826px; }
+#view-container #total-promotion-view #total-promotion-view-content { color: black; font-weight: 400; font-size: 34pt; }
+#view-container #return-history-view { position: absolute; right: 121px; top: 941px; }
+#view-container #return-history-view #return-history-view-content { color: black; font-weight: 400; font-size: 34pt; }

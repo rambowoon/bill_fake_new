@@ -1,0 +1,49 @@
+﻿#withdrawal-template-1 { margin-top: 40px; }
+#view-container { width: 600px; height: 1267px; position: relative; float: right; margin-right: 40px; }
+#view-container img { width: 600px; height: 1267px; }
+#view-container #url { position: absolute; top: 87px; left: 120px; }
+#view-container #url #url-content { font-family: Roboto; color: rgb(31 19 59 / 0.82); font-size: 20px; font-weight: bold; }
+#view-container #time-view { position: absolute; top: 23px; left: 33px; }
+#view-container #time-view #time-view-content { font-family: 'Microsoft Sans Serif'; font-size: 15.5pt; color: #484848; }
+#view-container #pin { position: absolute; right: 33px; top: 23px; }
+#view-container #pin img { width: 12px; height: 17px; }
+#view-container #signal-4g { position: absolute; right: 96px; top: 23px; }
+#view-container #signal-4g img { width: 21px; height: 17px; }
+#view-container #signal-wifi { position: absolute; right: 122px; top: 23px; }
+#view-container #signal-wifi img { width: 21px; height: 16px; }
+#view-container #pin-percent-view { position: absolute; top: 23px; right: 48px; }
+#view-container #pin-percent-view #pin-percent-view-content { font-family: 'Microsoft Sans Serif'; font-size: 15pt; color: #484848; }
+#view-container #tab-number-view { position: absolute; top: 89px; right: 83px; }
+#view-container #tab-number-view #tab-number-view-content { font-family: Arial; font-size: 13pt; color: #21123b; font-weight: bold; }
+#view-container #date-range-view { position: absolute; left: 118px; top: 335px; }
+#view-container #date-range-view #date-range-view-content { font-family: Roboto; font-size: 16pt; color: #484848; font-weight: 300; letter-spacing: 1.45px; }
+#view-container #total-result-view { position: absolute; left: 118px; top: 370px; }
+#view-container #total-result-view #total-result-view-content { font-family: Roboto; font-size: 16pt; color: #484848; font-weight: 300; letter-spacing: 0.5px; }
+#view-container #result-time-1-view { position: absolute; left: 75px; top: 456px; }
+#view-container #result-time-1-view #result-time-1-view-content { font-family: Roboto; font-size: 15pt; color: #484848; font-weight: 300; }
+#view-container #result-point-1-view { position: absolute; right: 77px; top: 496px; }
+#view-container #result-point-1-view #result-point-1-view-content { font-family: Roboto; font-size: 32.5pt; color: #484848; font-weight: 400; }
+#view-container #result-status-1-view { position: absolute; right: 76px; top: 452px; }
+#view-container #result-status-1-view #result-status-1-view-content { font-family: Roboto; font-size: 14pt; color: #484848; font-weight: 400; border: 1px #484848 solid; padding: 5px 6px 2px 6px; border-top-left-radius: 18px; border-top-right-radius: 18px; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; }
+
+/*Result 2*/
+#view-container #result-time-2-view { position: absolute; left: 75px; top: 716px; }
+#view-container #result-time-2-view #result-time-2-view-content { font-family: Roboto; font-size: 15pt; color: #484848; font-weight: 300; letter-spacing: 0.2px; }
+#view-container #result-point-2-view { position: absolute; right: 77px; top: 758px; }
+#view-container #result-point-2-view #result-point-2-view-content { font-family: Roboto; font-size: 32.5pt; color: #484848; font-weight: 400; letter-spacing: 0.22px; }
+#view-container #result-status-2-view { position: absolute; right: 76px; top: 712px; }
+#view-container #result-status-2-view #result-status-2-view-content { font-family: Roboto; font-size: 14pt; color: #484848; font-weight: 400; border: 1px #484848 solid; padding: 5px 6px 2px 6px; border-top-left-radius: 18px; border-top-right-radius: 18px; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; }
+
+/*Result 3*/
+#view-container #result-time-3-view { position: absolute; left: 75px; top: 977px; }
+#view-container #result-time-3-view #result-time-3-view-content { font-family: Roboto; font-size: 15pt; color: #484848; font-weight: 300; letter-spacing: 0.29px; }
+#view-container #result-point-3-view { position: absolute; right: 77px; top: 1019px; }
+#view-container #result-point-3-view #result-point-3-view-content { font-family: Roboto; font-size: 32.5pt; color: #484848; font-weight: 400; letter-spacing: 0.22px; }
+#view-container #result-status-3-view { position: absolute; right: 76px; top: 972px; }
+#view-container #result-status-3-view #result-status-3-view-content { font-family: Roboto; font-size: 14pt; color: #484848; font-weight: 400; border: 1px #484848 solid; padding: 5px 6px 2px 6px; border-top-left-radius: 18px; border-top-right-radius: 18px; border-bottom-left-radius: 18px; border-bottom-right-radius: 18px; }
+#view-container #real-money-1-view { position: absolute; left: 223px; top: 571px; }
+#view-container #real-money-1-view #real-money-1-view-content { color: rgb(83 83 83 / 0.80); font-size: 15pt; font-family: Arial; }
+#view-container #real-money-2-view { position: absolute; left: 223px; top: 831px; }
+#view-container #real-money-2-view #real-money-2-view-content { color: rgb(83 83 83 / 0.80); font-size: 15pt; font-family: Arial; }
+#view-container #real-money-3-view { position: absolute; left: 223px; top: 1092px; }
+#view-container #real-money-3-view #real-money-3-view-content { color: rgb(83 83 83 / 0.80); font-size: 15pt; font-family: Arial; }
