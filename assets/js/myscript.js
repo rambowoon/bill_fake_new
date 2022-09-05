@@ -139,3 +139,7 @@ $('.signal-4g img').click(function () {
   let src = $(this).attr('src');
   $('#signal-2 img').attr('src', src);
 });
+
+$('.menu li').click(function (e) { 
+  $(this).find('ul').toggleClass('active');
+});
