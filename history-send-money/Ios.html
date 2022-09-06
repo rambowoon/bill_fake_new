@@ -6,13 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="../assets/images/favicon.png">
-  <title>Số dư trong mục chính IOS - Bill Maker</title>
+  <title>Lịch sử gửi tiền IOS - Bill Maker</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <link rel="stylesheet" href="../assets/styles/styles.css" />
-  <link rel="stylesheet" href="../assets/styles/balance-main-ios-template.css" />
+  <link rel="stylesheet" href="../assets/styles/history-send-money-ios-template.css" />
   <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
@@ -20,50 +20,55 @@
 <body>
   <div id="full" class="flex justify-between">
     <div id="left">
-      <div class="logo"><img src="../assets/images/logo.png" alt="Logo"></div>
+      <div class="logo"><img src="../assets/images/logo.jpg" alt="Logo"></div>
       <div class="menu p-8">
         <ul>
-          <li class="active"><a class="text-base hover:text-red-500 active">Số dư trong mục chính</a>
+          <li><a class="text-base hover:text-red-500">Số dư trong mục chính</a>
             <ul>
-              <li><a href="" class="text-base hover:text-red-500">IOS</a></li>
-              <li><a href="" class="text-base hover:text-red-500 active">ANDROID</a></li>
+              <li><a href="../balance-main/Ios.html" class="text-base hover:text-red-500">IOS</a></li>
+              <li><a href="../balance-main/Android.html" class="text-base hover:text-red-500">ANDROID</a></li>
             </ul>
           </li>
           <li><a class="text-base hover:text-red-500">Số dư trong mục tôi</a>
             <ul>
-              <li><a href="" class="text-base hover:text-red-500">IOS</a></li>
-              <li><a href="" class="text-base hover:text-red-500">ANDROID</a></li>
+              <li><a href="../balance-item/Ios.html" class="text-base hover:text-red-500">IOS</a></li>
+              <li><a href="../balance-item/Android.html" class="text-base hover:text-red-500">ANDROID</a></li>
             </ul>
           </li>
           <li><a class="text-base hover:text-red-500">Lịch sử rút tiền</a>
             <ul>
-              <li><a href="" class="text-base hover:text-red-500">IOS</a></li>
-              <li><a href="" class="text-base hover:text-red-500">ANDROID</a></li>
+              <li><a href="../history-withdraw-money/Ios.html" class="text-base hover:text-red-500">IOS</a></li>
+              <li><a href="../history-withdraw-money/Android.html" class="text-base hover:text-red-500">ANDROID</a></li>
             </ul>
           </li>
-          <li><a class="text-base hover:text-red-500">Lịch sử gửi tiền</a>
+          <li class="active"><a class="text-base hover:text-red-500 active">Lịch sử gửi tiền</a>
             <ul>
-              <li><a href="" class="text-base hover:text-red-500">IOS</a></li>
-              <li><a href="" class="text-base hover:text-red-500">ANDROID</a></li>
+              <li><a href="../history-send-money/Ios.html" class="text-base hover:text-red-500 active">IOS</a></li>
+              <li><a href="../history-send-money/Android.html" class="text-base hover:text-red-500">ANDROID</a></li>
             </ul>
           </li>
           <li><a class="text-base hover:text-red-500">Lệnh lên điểm</a>
             <ul>
-              <li><a href="" class="text-base hover:text-red-500">IOS</a></li>
-              <li><a href="" class="text-base hover:text-red-500">ANDROID</a></li>
+              <li><a href="../order-to-score/Ios.html" class="text-base hover:text-red-500">IOS</a></li>
+              <li><a href="../order-to-score/Android.html" class="text-base hover:text-red-500">ANDROID</a></li>
             </ul>
           </li>
         </ul>
+      </div>
+      <div class="version">
+        <p>BillMaker - version 1.2</p>
+        <p>&#9400; 2022 - 78WIN - HewIT</p>
       </div>
     </div>
     <div id="right">
       <div id="header">
         <img src="../assets/images/banner.jpg" alt="Banner">
       </div>
-      <div id="main" class="flex justify-between">
+      <div id="main" class="main-2 flex justify-between">
         <div class="left-main">
-          <h2 class="mb-5 font-bold text-2xl text-gray-500">Chỉnh sửa số dư trong mục chính</h2>
-          <div class="">
+          <h2 class="mb-5 font-bold text-2xl text-gray-500">Chỉnh sửa lịch sử gửi tiền</h2>
+          <div class="flex justify-between">
+            <div class="w-3/6 pr-7">
               <div class="form-group">
                 <label class="font-bold mb-2 block text-base text-gray-500" for="time">Thời gian:</label>
                 <input id="time" class="form-control" type="text" placeholder="Nhập thời gian kiểm tra giao dịch" />
@@ -72,9 +77,91 @@
                 <label class="font-bold mb-2 block text-base text-gray-500" for="link-login">Link đăng nhập:</label>
                 <input id="link-login" class="form-control" type="text" placeholder="Nhập link đăng nhập" />
               </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="date">Ngày tháng:</label>
+                <input id="date" class="form-control" type="text" placeholder="Nhập ngày tháng" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="total">Tổng:</label>
+                <input id="total" class="form-control" type="text" placeholder="Nhập tổng" />
+              </div>
+              <h2 class="mb-5 font-bold text-2xl text-gray-500 text-center">Kết quả 1</h2>
               <div class="form-group">
-                <label class="font-bold mb-2 block text-base text-gray-500" for="text-money">Số dư tài khoản:</label>
-                <input id="text-money" class="form-control" type="text" placeholder="Nhập số dư tài khoản" />
+                <input id="date-1" class="form-control mb-3" type="text" placeholder="Năm - tháng - ngày  giờ:phút:giây" />
+                <input id="type-1" class="form-control" type="text" placeholder="Thành công- Đã hủy - Từ chối" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="money-real-1">Số tiền thực:</label>
+                <input id="money-real-1" class="form-control" type="text" placeholder="Nhập số tiền thực" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="bank-1">Giao dịch banking:</label>
+                <input id="bank-1" class="form-control" type="text" placeholder="Nhập kiểu giao dịch" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="note-1">Ghi chú:</label>
+                <input id="note-1" class="form-control" type="text" placeholder="Nhập ghi chú" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="txn-1">Txn:</label>
+                <input id="txn-1" class="form-control" type="text" placeholder="Nhập Txn" />
+              </div>
+              <h2 class="mb-5 font-bold text-2xl text-gray-500 text-center">Kết quả 4</h2>
+              <div class="form-group">
+                <input id="date-4" class="form-control mb-3" type="text" placeholder="Năm - tháng - ngày  giờ:phút:giây" />
+                <input id="type-4" class="form-control" type="text" placeholder="Thành công- Đã hủy - Từ chối" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="money-real-4">Số tiền thực:</label>
+                <input id="money-real-4" class="form-control" type="text" placeholder="Nhập số tiền thực" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="bank-4">Giao dịch banking:</label>
+                <input id="bank-4" class="form-control" type="text" placeholder="Nhập kiểu giao dịch" />
+              </div>
+            </div>
+            <div class="w-3/6 pl-7">
+              <h2 class="mb-5 font-bold text-2xl text-gray-500 text-center">Kết quả 2</h2>
+              <div class="form-group">
+                <input id="date-2" class="form-control mb-3" type="text" placeholder="Năm - tháng - ngày  giờ:phút:giây" />
+                <input id="type-2" class="form-control" type="text" placeholder="Thành công- Đã hủy - Từ chối" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="money-real-2">Số tiền thực:</label>
+                <input id="money-real-2" class="form-control" type="text" placeholder="Nhập số tiền thực" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="bank-2">Giao dịch banking:</label>
+                <input id="bank-2" class="form-control" type="text" placeholder="Nhập kiểu giao dịch" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="note-2">Ghi chú:</label>
+                <input id="note-2" class="form-control" type="text" placeholder="Nhập ghi chú" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="txn-2">Txn:</label>
+                <input id="txn-2" class="form-control" type="text" placeholder="Nhập Txn" />
+              </div>
+              <h2 class="mb-5 font-bold text-2xl text-gray-500 text-center">Kết quả 3</h2>
+              <div class="form-group">
+                <input id="date-3" class="form-control mb-3" type="text" placeholder="Năm - tháng - ngày  giờ:phút:giây" />
+                <input id="type-3" class="form-control" type="text" placeholder="Thành công- Đã hủy - Từ chối" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="money-real-3">Số tiền thực:</label>
+                <input id="money-real-3" class="form-control" type="text" placeholder="Nhập số tiền thực" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="bank-3">Giao dịch banking:</label>
+                <input id="bank-3" class="form-control" type="text" placeholder="Nhập kiểu giao dịch" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="note-3">Ghi chú:</label>
+                <input id="note-3" class="form-control" type="text" placeholder="Nhập ghi chú" />
+              </div>
+              <div class="form-group form-group-2">
+                <label class="font-bold mb-2 block text-base text-gray-500" for="txn-3">Txn:</label>
+                <input id="txn-3" class="form-control" type="text" placeholder="Nhập Txn" />
               </div>
               <div class="form-group flex">
                 <div class="w-1/2 p-1">
@@ -84,10 +171,10 @@
                       <img src="../assets/images/bank-bills/signals/withdrawal-template-2-1.png" alt="Alternate Text" />
                     </div>
                     <div class="signal-4g">
-                        <img src="../assets/images/bank-bills/signals/withdrawal-template-2-2.png" alt="Alternate Text" />
+                      <img src="../assets/images/bank-bills/signals/withdrawal-template-2-2.png" alt="Alternate Text" />
                     </div>
                     <div class="signal-4g">
-                        <img src="../assets/images/bank-bills/signals/withdrawal-template-2-3.png" alt="Alternate Text" />
+                      <img src="../assets/images/bank-bills/signals/withdrawal-template-2-3.png" alt="Alternate Text" />
                     </div>
                     <div class="signal-4g">
                       <img src="../assets/images/bank-bills/signals/withdrawal-template-2-4.png" alt="Alternate Text" />
@@ -100,23 +187,23 @@
                     <div class="pin">
                       <img pin-percent="15%" src="../assets/images/bank-bills/pins/withdrawal-template-2.png" alt="Alternate Text" />
                       <!-- <p class="text-black">15%</p> -->
-                  </div>
-                  <div class="pin">
+                    </div>
+                    <div class="pin">
                       <img pin-percent="35%" src="../assets/images/bank-bills/pins/withdrawal-template-2-1.png" alt="Alternate Text" />
                       <!-- <p class="text-black">35%</p> -->
-                  </div>
-                  <div class="pin">
+                    </div>
+                    <div class="pin">
                       <img pin-percent="50%" src="../assets/images/bank-bills/pins/withdrawal-template-2-2.png" alt="Alternate Text" />
                       <!-- <p class="text-black">50%</p> -->
-                  </div>
-                  <div class="pin">
-                    <img pin-percent="75%" src="../assets/images/bank-bills/pins/withdrawal-template-2-3.png" alt="Alternate Text" />
-                    <!-- <p class="text-black">75%</p> -->
+                    </div>
+                    <div class="pin">
+                      <img pin-percent="75%" src="../assets/images/bank-bills/pins/withdrawal-template-2-3.png" alt="Alternate Text" />
+                      <!-- <p class="text-black">75%</p> -->
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
 
           <div class="text-center mt-8">
@@ -142,9 +229,79 @@
             <div id="link-login-view" class="draggable">
               <p id="link-login-view-content">78winvip08.com</p>
             </div>
-            <div id="money-view" class="draggable">
-              <p id="money-view-content">100</p>
+            <div id="date-view" class="draggable">
+              <p id="date-view-content">2022-07-08</p>
             </div>
+            <div id="total-view" class="draggable">
+              <p id="total-view-content">3,700.00</p>
+            </div>
+            <div id="date-1-view" class="draggable">
+              <p id="date-1-view-content">2022-07-08 12:15:20</p>
+            </div>
+            <div id="type-1-view" class="draggable">
+              <p id="type-1-view-content">Thành Công</p>
+            </div>
+            <div id="money-real-1-view" class="draggable">
+              <p id="money-real-1-view-content">200.00</p>
+            </div>
+            <div id="bank-1-view" class="draggable">
+              <p id="bank-1-view-content">Momo Scan</p>
+            </div>
+            <div id="note-1-view" class="draggable">
+              <p id="note-1-view-content">sd ád</p>
+            </div>
+            <div id="txn-1-view" class="draggable">
+              <p id="txn-1-view-content">saddarew3r456435ds345</p>
+            </div>
+            <div id="date-2-view" class="draggable">
+              <p id="date-2-view-content">2022-07-08 12:15:20</p>
+            </div>
+            <div id="type-2-view" class="draggable">
+              <p id="type-2-view-content">Thành Công</p>
+            </div>
+            <div id="money-real-2-view" class="draggable">
+              <p id="money-real-2-view-content">200.00</p>
+            </div>
+            <div id="bank-2-view" class="draggable">
+              <p id="bank-2-view-content">ATM</p>
+            </div>
+            <div id="note-2-view" class="draggable">
+              <p id="note-2-view-content">sd ád</p>
+            </div>
+            <div id="txn-2-view" class="draggable">
+              <p id="txn-2-view-content">saddarew3r456435ds345</p>
+            </div>
+            <div id="date-3-view" class="draggable">
+              <p id="date-3-view-content">2022-07-08 12:15:20</p>
+            </div>
+            <div id="type-3-view" class="draggable">
+              <p id="type-3-view-content">Thành Công</p>
+            </div>
+            <div id="money-real-3-view" class="draggable">
+              <p id="money-real-3-view-content">200.00</p>
+            </div>
+            <div id="bank-3-view" class="draggable">
+              <p id="bank-3-view-content">Momo Scan</p>
+            </div>
+            <div id="note-3-view" class="draggable">
+              <p id="note-3-view-content">sd ád</p>
+            </div>
+            <div id="txn-3-view" class="draggable">
+              <p id="txn-3-view-content">saddarew3r456435ds345</p>
+            </div>
+            <div id="date-4-view" class="draggable">
+              <p id="date-4-view-content">2022-07-08 12:15:20</p>
+            </div>
+            <div id="type-4-view" class="draggable">
+              <p id="type-4-view-content">Thành Công</p>
+            </div>
+            <div id="money-real-4-view" class="draggable">
+              <p id="money-real-4-view-content">200.00</p>
+            </div>
+            <div id="bank-4-view" class="draggable">
+              <p id="bank-4-view-content">Momo Scan</p>
+            </div>
+            <div id="line-end"></div>
           </div>
         </div>
       </div>
@@ -157,7 +314,7 @@
   <script>
     $("#btn-export").click(function () {
       let date = new Date();
-      let fileName = "agribank-android-template-1-" + date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear() + "-" + Math.floor(Math.random() * 100001); + ".png";
+      let fileName = "history-send-money-ios-" + date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear() + "-" + Math.floor(Math.random() * 100001); + ".png";
       convertHTMLToImage("view-container", fileName);
     });
   </script>

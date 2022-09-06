@@ -8,21 +8,21 @@
          url('../fonts/helveticaneue.svg#helveticaneue') format('svg');
 }
 #game-account-template-1 { padding-top: 40px; font-family: Roboto; }
-#view-container {width: 335px;height: 746px;position: relative;}
-#view-container img {width: 335px;height: 746px;}
+#view-container {width: 335px;height: 749px;position: relative;}
+#view-container img {width: 335px;height: 749px;}
 #view-container #time-view {position: absolute;left: 40px;top: 11px;}
 #view-container #time-view #time-view-content {font-weight: 700;font-size: 11pt;color: #2f2f2f;opacity: 0.85;}
 #view-container #pin {position: absolute;right: 26px;top: 15px;}
 #view-container #pin img {width: 23px;height: 11px;}
 #view-container #pin-percent-view { position: absolute; right: 46px; top: 5px; }
 #view-container #pin-percent-view #pin-percent-view-content { color: white; font-size: 16pt; opacity: 0.85; }
-#view-container #signal-1 {position: absolute;right: 75px;top: 15px;}
+#view-container #signal-1 {position: absolute;right: 77px;top: 14px;}
 #view-container #signal-1 img {width: 20px;height: 12px;}
 #view-container #signal-2 { position: absolute; right: 116px; top: 12px; }
 #view-container #signal-2 img { width: 20px; height: 16px; }
 #view-container #signal-wifi { position: absolute; right: 138px; top: 12px; }
 #view-container #signal-wifi img { width: 22px; height: 19px; }
-#view-container #money-view {position: absolute;top: 272px;left: 29px;}
+#view-container #money-view {position: absolute;top: 273px;left: 29px;}
 #view-container #money-view #money-view-content {font-family: Helvetica-Neue;font-size: 11pt;font-weight: bold;color: #373737;}
 #view-container #text-money-view { position: absolute; left: 185px; top: 189px; }
 #view-container #text-money-view #text-money-view-content { font-family: Helvetica-Neue; font-size: 18pt; font-weight: 500; color: #3b3b3b; letter-spacing: -0.6px; }
@@ -42,5 +42,5 @@
 #view-container #beneficiary-bank-view #beneficiary-bank-view-content { font-family: Helvetica-Neue; font-size: 20pt; font-weight: 400; color: #234c8c; text-align: right; letter-spacing: -0.7px; line-height: 31px; max-width: 270px; }
 #view-container #beneficiary-account-view { position: absolute; right: 51px; top: 988px; }
 #view-container #beneficiary-account-view #beneficiary-account-view-content { font-family: Helvetica-Neue; font-size: 20pt; font-weight: 400; color: #234c8c; text-align: right; letter-spacing: -0.7px; }
-#view-container #link-login-view{position: absolute;left: 135px;top: 714px;}
+#view-container #link-login-view{position: absolute;left: 135px;top: 716px;}
 #view-container #link-login-view #link-login-view-content{color: #525252;font-size: 7pt;font-weight: 700;}

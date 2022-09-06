@@ -8,21 +8,21 @@
          url('../fonts/helveticaneue.svg#helveticaneue') format('svg');
 }
 #game-account-template-1 { padding-top: 40px; font-family: Roboto; }
-#view-container {width: 335px;height: 746px;position: relative;}
-#view-container img {width: 335px;height: 746px;}
-#view-container #time-view {position: absolute;left: 17px;top: 15px;}
-#view-container #time-view #time-view-content {font-weight: 700;font-size: 8pt;color: #525252;opacity: 0.85;}
-#view-container #pin {position: absolute;right: 24px;top: 17px;}
-#view-container #pin img {width: 23px;height: 10px;}
+#view-container {width: 351px;height: 729px;position: relative;}
+#view-container img {width: 351px;height: 729px;}
+#view-container #time-view {position: absolute;left: 36px;top: 11px;}
+#view-container #time-view #time-view-content {font-weight: 700;font-size: 11pt;color: #2f2f2f;opacity: 0.85;}
+#view-container #pin {position: absolute;right: 29px;top: 15px;}
+#view-container #pin img {width: 23px;height: 11px;}
 #view-container #pin-percent-view { position: absolute; right: 46px; top: 5px; }
 #view-container #pin-percent-view #pin-percent-view-content { color: white; font-size: 16pt; opacity: 0.85; }
-#view-container #signal-1 {position: absolute;right: 51px;top: 15px;}
+#view-container #signal-1 {position: absolute;right: 81px;top: 14px;}
 #view-container #signal-1 img {width: 20px;height: 12px;}
 #view-container #signal-2 { position: absolute; right: 116px; top: 12px; }
 #view-container #signal-2 img { width: 20px; height: 16px; }
 #view-container #signal-wifi { position: absolute; right: 138px; top: 12px; }
 #view-container #signal-wifi img { width: 22px; height: 19px; }
-#view-container #money-view {position: absolute;top: 316px;left: 27px;}
+#view-container #money-view {position: absolute;top: 273px;left: 29px;}
 #view-container #money-view #money-view-content {font-family: Helvetica-Neue;font-size: 11pt;font-weight: bold;color: #373737;}
 #view-container #text-money-view { position: absolute; left: 185px; top: 189px; }
 #view-container #text-money-view #text-money-view-content { font-family: Helvetica-Neue; font-size: 18pt; font-weight: 500; color: #3b3b3b; letter-spacing: -0.6px; }
@@ -42,5 +42,15 @@
 #view-container #beneficiary-bank-view #beneficiary-bank-view-content { font-family: Helvetica-Neue; font-size: 20pt; font-weight: 400; color: #234c8c; text-align: right; letter-spacing: -0.7px; line-height: 31px; max-width: 270px; }
 #view-container #beneficiary-account-view { position: absolute; right: 51px; top: 988px; }
 #view-container #beneficiary-account-view #beneficiary-account-view-content { font-family: Helvetica-Neue; font-size: 20pt; font-weight: 400; color: #234c8c; text-align: right; letter-spacing: -0.7px; }
-#view-container #link-login-view{position: absolute;left: 71px;top: 50px;}
-#view-container #link-login-view #link-login-view-content{color: #525252;font-size: 10pt;font-weight: 700;}
+#view-container #link-login-view{position: absolute;left: 143px;top: 697px;}
+#view-container #link-login-view #link-login-view-content{color: #525252;font-size: 7pt;font-weight: 700;}
+#view-container #score-view{position: absolute;left: 112px;top: 87px;}
+#view-container #score-view #score-view-content{color: #90C414;font-size: 16pt;font-weight: 300;}
+#view-container #code-view{position: absolute;left: 20px;top: 169px;}
+#view-container #code-view #code-view-content{color: #A5A5A5;font-size: 10pt;font-weight: 500;}
+#view-container #money-view{position: absolute;left: 20px;top: 224px;}
+#view-container #money-view #money-view-content{color: #A5A5A5;font-size: 10pt;font-weight: 500;}
+#view-container #date-view{position: absolute;left: 20px;top: 279px;}
+#view-container #date-view #date-view-content{color: #A5A5A5;font-size: 10pt;font-weight: 500;}
+#view-container #bank-view{position: absolute;left: 20px;top: 332px;}
+#view-container #bank-view #bank-view-content{color: #A5A5A5;font-size: 10pt;font-weight: 500;}
